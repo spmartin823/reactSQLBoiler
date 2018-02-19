@@ -1,0 +1,32 @@
+{
+  "name": "reactsqlboiler",
+  "version": "1.0.0",
+  "description": "'a simple boilerplate for react and sql'",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spmartin823/reactSQLBoiler.git"
+  },
+  "keywords": [
+    "'react",
+    "sql'"
+  ],
+  "author": "Seamus Martin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spmartin823/reactSQLBoiler/issues"
+  },
+  "homepage": "https://github.com/spmartin823/reactSQLBoiler#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "mysql": "^2.15.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
