@@ -1,9 +1,9 @@
 -- this is the model
-DROP DATABASE IF EXISTS reactSQLBoiler;
+DROP DATABASE IF EXISTS react_sql_boiler;
 
-CREATE DATABASE reactSQLBoiler;
+CREATE DATABASE react_sql_boiler;
 
-USE reactSQLBoiler;
+USE react_sql_boiler;
 
 CREATE TABLE sample (
 	sample_id int NOT NULL AUTO_INCREMENT, 
@@ -11,7 +11,7 @@ CREATE TABLE sample (
 	PRIMARY KEY (sample_id)
 );
 
-CREATE TABLE anotherTable (
+CREATE TABLE another_table (
   id int NOT NULL AUTO_INCREMENT,
   date date,
   sample_id int,
@@ -27,5 +27,5 @@ CREATE TABLE anotherTable (
 -- this is just some sample data that will be created everytime that the db is 
 -- restarted using the above 
 INSERT INTO sample (name) VALUES ("none");
-INSERT INTO anotherTable (sample_id) VALUES (1);
+INSERT INTO another_table (sample_id) VALUES (1);
 
